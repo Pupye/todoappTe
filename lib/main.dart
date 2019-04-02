@@ -103,7 +103,7 @@ class TodoListState extends State <TodoList>{
       builder: (context) {
         return new Scaffold(
           appBar: new AppBar(
-            title: new Text('Add a new task')
+            title: new Text('Add a new task to this app')
           ),
           body: new TextField(
             autofocus: true,
@@ -112,7 +112,7 @@ class TodoListState extends State <TodoList>{
               Navigator.pop(context); // Close the add todo screen
             },
             decoration: new InputDecoration(
-              hintText: 'Enter something to do...',
+              hintText: 'aaaaaaa',
               contentPadding: const EdgeInsets.all(16.0)
             ),
           )
