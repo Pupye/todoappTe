@@ -112,7 +112,7 @@ class TodoListState extends State <TodoList>{
               Navigator.pop(context); // Close the add todo screen
             },
             decoration: new InputDecoration(
-              hintText: 'aaaaaaa',
+              hintText: 'aaaasasdasdasdaaa',
               contentPadding: const EdgeInsets.all(16.0)
             ),
           )
